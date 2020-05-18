@@ -1,0 +1,86 @@
+.formForDeal {
+  width: 60%;
+  height: 70vh;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #1fbbde;
+  margin: 20px auto; }
+  .formForDeal .name {
+    margin-left: 30px; }
+    .formForDeal .name .nameDeal {
+      width: 50%; }
+  .formForDeal .description {
+    margin-left: 30px; }
+    .formForDeal .description .descDeal {
+      width: 50%;
+      min-height: 160px; }
+  .formForDeal .btn {
+    padding: 8px;
+    background: grey;
+    color: white;
+    width: 150px;
+    border-radius: 4px;
+    margin: 10px 30px;
+    text-align: center;
+    cursor: pointer; }
+  .formForDeal h3 {
+    padding: 0;
+    margin: 12px 0 6px 0;
+    font-size: 20px;
+    color: grey; }
+  .formForDeal h1 {
+    color: grey;
+    padding: 0;
+    margin: 12px 0 6px 0;
+    font-size: 25px;
+    text-align: center; }
+
+.deals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .deals .deal {
+    border: 2px solid blue;
+    width: 48%;
+    min-width: 400px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative; }
+    .deals .deal .innerBlockDeal {
+      display: inline-block;
+      width: 40%;
+      margin: 10px;
+      border: 0px solid red;
+      padding: 0;
+      text-align: left;
+      vertical-align: top; }
+      .deals .deal .innerBlockDeal h3 {
+        margin: 2px; }
+    .deals .deal .close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 4px;
+      border: 1px solid red;
+      font-size: 22px;
+      color: red;
+      cursor: pointer; }
+    .deals .deal .close:hover {
+      color: white;
+      background: red; }
+    .deals .deal .done {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      padding: 4px;
+      border: 1px solid green;
+      font-size: 22px;
+      color: green;
+      cursor: pointer; }
+    .deals .deal .done:hover {
+      color: white;
+      background: green; }
+
+/*# sourceMappingURL=style.css.map */
